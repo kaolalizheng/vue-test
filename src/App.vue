@@ -16,6 +16,9 @@
         a:100
       }
     },
+    created(){
+      console.log('我是前端的新增');
+    },
     methods:{
       add(){
         this.a++;
