@@ -2,6 +2,7 @@
   <div class="yangshi">
     <p>{{ a }}</p>
     <button @click="add">增加</button>
+     <button @click="minus">减少</button>
   </div>
 </template>
 
@@ -15,6 +16,9 @@
     methods:{
       add(){
         this.a++;
+      },
+      minus(){
+        this.a--;
       },
     }
   }
