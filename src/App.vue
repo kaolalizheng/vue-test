@@ -23,6 +23,7 @@
 <style scoped>
 .yangshi{
   background-color: red;
+  color:yellow;
 }
 p{
   background-color: aqua;
