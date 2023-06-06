@@ -6,6 +6,9 @@
     <button @click="division">除去</button>
     <p>{{ doubleA }}</p>
     <p>{{ squareA }}</p>
+    <p>********************</p>
+    <p>{{ b }}</p>
+    <button @click="change">改变</button>
   </div>
 </template>
 
@@ -28,6 +31,9 @@
       },
       division(){
         this.a=this.a/2;
+      },
+      change(){
+        this.b='刘德华'
       }
     },
     computed:{
@@ -45,5 +51,10 @@
 .yangshi{
   background-color: aqua;
   font-size: 25px;
+}
+p{
+  background: red;
+  font-weight: bold;
+  color: aqua;
 }
 </style>
