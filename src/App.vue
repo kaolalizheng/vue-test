@@ -15,4 +15,7 @@
 </script>
 
 <style scoped>
+.yangshi{
+  background-color: red;
+}
 </style>
