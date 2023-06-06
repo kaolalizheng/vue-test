@@ -1,6 +1,7 @@
 <template>
   <div class="yangshi">
     <p>{{ a }}</p>
+    <button @click="add">增加</button>
   </div>
 </template>
 
@@ -10,6 +11,11 @@
       return {
         a:100
       }
+    },
+    methods:{
+      add(){
+        this.a++;
+      },
     }
   }
 </script>
